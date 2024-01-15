@@ -1,0 +1,164 @@
+/*  header section start style */
+
+.header-section {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logu-section {
+    display: flex;
+}
+
+.nav-section {}
+
+nav {}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+
+
+
+
+/* benner section start style */
+
+.benner-section {
+    width: 1170px;
+    height: 500px;
+    background-image: url(../images/group-13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.benner-section h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.benner-section p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* popular section start style */
+
+.popur-tour-section {
+    display: flex;
+    padding: 50px 50px;
+    gap: 50px;
+
+}
+
+.popur-tour-section h1 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.popur-tour-section p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popur-tour-section li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popur-tour-section button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    padding: 20px;
+}
+
+
+
+
+
+/* destination section start section */
+.destination-section {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.destination-section h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.destination-one{
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+}
+.destination-one img{
+    width: 50%;
+}
+
+.destination-two{
+    display: flex;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.destination-tre{
+    display: flex;
+    gap: 20px;
+}
