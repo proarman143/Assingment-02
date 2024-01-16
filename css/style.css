@@ -189,10 +189,7 @@ nav ul li a {
 
 .destination-section p {
     color: rgba(19, 19, 24, 0.70);
-    /* text-align: center; */
-    /* font-family: Mulish; */
     font-size: 16px;
-    /* font-style: normal; */
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 2;
@@ -608,5 +605,25 @@ nav ul li a {
     }
     .choose-title-last{
         width: 100%;
+        padding: 0;
+    }
+
+
+
+    /* distination mobile responsive styel start */
+    
+    .destination-section{
+    align-items: center;
+    }
+    .destination-one{
+        flex-direction: column;
+    }
+
+    .destination-two{
+        flex-direction: column;
+    }
+
+    .destination-tre{
+        flex-direction: column;
     }
 }
