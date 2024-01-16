@@ -232,7 +232,7 @@ nav ul li a {
 
 .choose-section h1 {
     color: #131318;
-    text-align: center;
+    text-align: l;
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
@@ -242,7 +242,7 @@ nav ul li a {
 
 .choose-section p {
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
+    text-align: l;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -260,6 +260,7 @@ nav ul li a {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 20px;
+    text-align: left;
 }
 
 .choose-design-two {
@@ -267,6 +268,7 @@ nav ul li a {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
+    text-align: left;
 }
 
 .choose-title-last {
@@ -276,6 +278,10 @@ nav ul li a {
     width: 600px;
     margin: 20px auto;
     padding: 20px;
+    text-align: left;
+}
+.choose-h-one{
+    text-align: left;
 }
 
 
@@ -371,6 +377,7 @@ nav ul li a {
     background: #FF5400;
     border: none;
     color: #FFF;
+    margin-top: 2;
 }
 
 .packages-titile h1 {
@@ -410,6 +417,7 @@ nav ul li a {
 .pck-two-titile {
     border-radius: 16px;
     border: 1px solid #FF5400;
+    width: 47%;
 }
 
 
@@ -439,6 +447,27 @@ nav ul li a {
 .pck-two-titile button {
     margin-top: 16px;
 
+}
+
+.pcg-two-img{
+    width: 47%;
+    height: 400px;
+    background-image: url(../images/rectangle-99.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.choose-curle{
+    height: 100px;
+    width: 200px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    transform: rotate(-19.628deg);
+    position: relative;
+    top: 255px;
+    left: 355px;
 }
 
 
@@ -545,6 +574,7 @@ nav ul li a {
 
     .popur-tour-section {
         flex-direction: column;
+        width: 100%;
     }
 
     .popular-img {
@@ -568,5 +598,15 @@ nav ul li a {
     }
     .packages-two{
         flex-direction: column;
+    }
+    .choose-section{
+        flex-direction: column;
+    }
+    .choose-titile-design{
+        flex-direction: column;
+       text-align: center;
+    }
+    .choose-title-last{
+        width: 100%;
     }
 }
