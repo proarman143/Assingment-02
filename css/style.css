@@ -1,3 +1,7 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
 /*  header section start style */
 
 .header-section {
@@ -43,11 +47,58 @@ nav ul li a {
 .benner-section {
     width: 1170px;
     height: 500px;
-    background-image: url(../images/group-13.png);
+    border-radius: 16px;
+    background: url(../images/group-13.png), lightgray 50% / cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px 50px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.banner-secend {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
+    height: 500px;
+}
+
+.benner-input {
+    display: grid;
+    grid-template-columns: repeat(4, 174px);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.benner-input input {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    padding: 16px;
+
+}
+
+.select-cls {
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
 }
 
 .benner-section h1 {
@@ -63,6 +114,7 @@ nav ul li a {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 60px;
 }
 
 
@@ -143,22 +195,243 @@ nav ul li a {
 }
 
 
-.destination-one{
+.destination-one {
     display: flex;
     gap: 20px;
     max-width: 1200px;
 }
-.destination-one img{
+
+.destination-one img {
     width: 50%;
 }
 
-.destination-two{
+.destination-two {
     display: flex;
     gap: 20px;
     padding: 30px 0px;
 }
 
-.destination-tre{
+.destination-tre {
     display: flex;
     gap: 20px;
+}
+
+
+
+/* choose section start style */
+
+.choose-section {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.choose-section h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-titile-design {
+    display: flex;
+    gap: 30px;
+}
+
+.choose-design-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-design-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-title-last {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 20px;
+    width: 600px;
+}
+
+
+
+/* discount section start style */
+
+.discunt-section {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.discount-one {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../images/group-39.png), lightgray 50% / cover no-repeat;
+}
+
+.discount-two {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../images/group-40.png), lightgray 50% / cover no-repeat;
+}
+
+.discount-tre {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url(../images/group-39.png), lightgray 50% / cover no-repeat;
+}
+
+.discount-title {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.discount-title h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.discount-title h2 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.discount-title p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.discount-title button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 150px;
+    height: 52px;
+    border: none
+}
+
+
+.packages-section {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.packages-one {
+    display: flex;
+    gap: 20px;
+}
+
+.packages-section button {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+}
+
+.packages-titile h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.packages-titile p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.packages-titile li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+/* mobile device responsive style start */
+
+@media screen and (max-width:600px) {
+    .header-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .benner-section{
+        width: 100%;
+        height: auto;
+    }
+    .benner-section h1{
+    font-size: 20px;
+}
+.benner-input{
+    grid-template-columns: repeat(1, 90%);
+}
+#bnr-btn-responsive{
+    width: 99%;
+}
+.nav-section{
+    display: none;
+}
+
+
+
+.popur-tour-section{
+    flex-direction: column;
+}
+.popular-img{
+    justify-content: center;
+    text-align: center;
+}
 }
