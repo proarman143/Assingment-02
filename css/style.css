@@ -239,7 +239,7 @@ nav ul li a {
 
 .choose-section p {
     color: rgba(19, 19, 24, 0.70);
-    text-align: l;
+    text-align: ;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -441,6 +441,13 @@ nav ul li a {
     margin-top: 16px;
 }
 
+.packages-img{
+    width: 100%;
+}
+.packages-img img{
+    width: 100%;
+}
+
 .pck-two-titile button {
     margin-top: 16px;
 
@@ -572,17 +579,29 @@ nav ul li a {
     .popur-tour-section {
         flex-direction: column;
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .popular-img {
         justify-content: center;
         text-align: center;
+        width: 100%;
     }
-
+    .popular-img img{
+    width: 100%;
+}
 
     /* foooter section mobile responsive style start */
     .footer-section{
-       
+       width: 100%;
+       padding: 0;
+    }
+    .footer {
+        width: 100%;
+    }
+    .line{
+        width: 100%;
     }
 
     /* packages section style start */
@@ -598,6 +617,7 @@ nav ul li a {
     }
     .choose-section{
         flex-direction: column;
+        width: 1;
     }
     .choose-titile-design{
         flex-direction: column;
@@ -625,5 +645,14 @@ nav ul li a {
 
     .destination-tre{
         flex-direction: column;
+    }
+    .destination-one img{
+        width: 100%;
+    }
+    .pck-two-titile{
+        width: 100%;
+    }
+    .pck-two-titile{
+        width: 100%;
     }
 }
